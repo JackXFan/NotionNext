@@ -90,7 +90,7 @@ const BlogListScroll = ({ posts }) => {
           className="w-full my-4 py-4 text-center cursor-pointer"
           onClick={loadMorePosts}
         >
-          {page < totalPages ? locale.COMMON.MORE : `${locale.COMMON.NO_MORE} 😰`}
+          {page < totalPages ? locale.COMMON.MORE : `${locale.COMMON.NO_MORE} `}
         </div>
       </div>
     );

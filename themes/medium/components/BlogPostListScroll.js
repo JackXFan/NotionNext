@@ -85,7 +85,7 @@ const BlogPostListScroll = ({ posts = [], currentSearch }) => {
             }}
             className='w-full my-4 py-4 text-center cursor-pointer dark:text-gray-200'>
             {' '}
-            {hasMore ? locale.COMMON.MORE : `${locale.COMMON.NO_MORE} 😰`}{' '}
+            {hasMore ? locale.COMMON.MORE : `${locale.COMMON.NO_MORE} `}{' '}
           </div>
         </div>
       </div>
